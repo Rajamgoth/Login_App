@@ -59,4 +59,10 @@ public class User {
 		this.phno = phno;
 	}
 
+	@Override
+	public String toString() {
+		return "User [uid=" + uid + ", name=" + name + ", email=" + email + ", pwd=" + pwd + ", phno=" + phno + "]";
+	}
+	
+
 }

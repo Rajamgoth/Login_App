@@ -5,6 +5,8 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Component;
 
+import jakarta.mail.internet.MimeMessage;
+
 @Component
 public class EmailUtils {
 	
